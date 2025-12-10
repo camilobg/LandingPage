@@ -52,7 +52,6 @@ li a{
 
 .presentation div,img{
     flex: 1;
-    border:1px solid rebeccapurple;
 }
 
 .presentation h1{
