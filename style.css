@@ -1,0 +1,153 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    padding: 8px 10%;
+}
+
+#headerTitle{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+
+.header ul li{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+li a{
+    color: #E5E7EB;
+    text-decoration: none;
+
+}
+
+.presentation{
+    background-color: #1f2937;
+    padding: 36px 10%;
+    display: flex;
+    flex-direction: row;
+}
+
+.presentation div,img{
+    flex: 1;
+}
+
+.presentation h1{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.presentation p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button{
+    background-color: #3882f6;
+    color: white;
+    padding: 8px 32px;
+    border-radius: 10px;
+}
+
+.random{
+    text-align: center;
+}
+
+.random h3{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.features{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 12px;
+}
+
+.feature{
+    width: 180px;
+}
+
+.features .feature div{
+    height: 150px;
+    width: 150px;
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.features .feature p{
+    font-size: 18px;
+    color: #1f2937;
+    text-align: center;
+}
+
+.quote{
+    background-color: #e5e7eb;
+    padding: 2% 12%;
+}
+
+.quote h3{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    text-align: center;
+    margin: 24px 10%;
+}
+
+.quote p{
+    text-align: right;
+    margin: 8px 10%;
+    font-weight: bold;
+    padding: 10px;
+    color: black;
+}
+
+.footer{
+    padding: 3% 10%;
+}
+
+.footer-content{
+    background-color: #3882f6;
+    align-items: center;
+    padding: 30px 10%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.footer-content h3,p{
+    color: #E5E7EB;
+    margin: 12px;
+}
+
+
+
+.footer-content button{
+    border: 1px solid #E5E7EB;
+}
+
